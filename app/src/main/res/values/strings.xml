@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">In-Venture</string>
+    <string name="desc">Description About App</string>
+    <string name="welcome_txt">Welcome To Our App.</string>
+    <string name="skip">Skip</string>
+    <string name="title_activity_fillter">Fillter</string>
+    <string name="title_activity_navi_drawer">navi_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_powered">Powered</string>
+    <string name="title_activity_sign__in">Sign_In</string>
+    <string name="title_activity_contact__us">Contact_Us</string>
+
+</resources>

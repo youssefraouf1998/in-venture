@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    tools:context=".MainActivity">
+
+
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/discription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Discription"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textOfDiscription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        />
+   <ListView
+       android:layout_marginRight="5dp"
+       android:layout_marginLeft="5dp"
+       android:id="@+id/informationList"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="5"
+
+       >
+
+   </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+        android:background="@drawable/shape_btn2"
+            android:textColor="#000"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="45dp"
+        android:text="requst"
+        android:id="@+id/btn1"
+
+        />
+
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        />
+
+    <Button
+        android:background="@drawable/shape_btn2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:text="Info"
+        android:id="@+id/btn2"
+        android:textColor="#000"
+
+        />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/home_float"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="17dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
